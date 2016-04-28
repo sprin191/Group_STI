@@ -16,7 +16,7 @@ function loop(array) {
 function sti (employee) {
 var bonus = 0;
 
-if (employee[3] <=2) {
+if (employee[3] <= 2) {
 	 bonus = 0;
 }
 if (employee[3] == 3) {
@@ -30,27 +30,22 @@ else if (employee[3] == 5) {
 }
 
 if(employee[1].length == 4) {
-bonus = bonus + 0.05;
+  bonus = bonus + 0.05;
 }
 
 if(employee[2] > 65000) {
   bonus = bonus - 0.01;
 }
 
-if(bonus>0.13) {
-		bonus = 0.13;
-	}
-
-if (employee[3] <=2) {
-  	 bonus = 0;
-  }
-
-return bonus;
+if(bonus > 0.13) {
+	bonus = 0.13;
 }
 
-function percentage (employee) {
-	var percent = (totalBonus/(employee[2]))*100;
-	return percent;
+if (employee[3] <= 2) {
+  bonus = 0;
+}
+
+return bonus;
 }
 
 function final (employee) {
