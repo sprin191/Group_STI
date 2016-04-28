@@ -15,11 +15,6 @@ function loop(array) {
 
 function sti(employee) {
   var bonus = 0;
-
-  if (employee[3] <= 2) {
-    bonus = 0;
-  }
-
   if (employee[3] == 3) {
     bonus = bonus + 0.04;
   } else if (employee[3] == 4) {
