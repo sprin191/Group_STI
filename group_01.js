@@ -5,7 +5,7 @@ var scout = ['Scout', '6243', '74750', 5];
 
 var employees = [atticus, jem, boo, scout];
 
-loop(employees);
+console.log(loop(employees));
 
 function loop(array) {
   for (i = 0; i < 4; i++) {
