@@ -21,26 +21,20 @@ if (employee[3] <= 2) {
 }
 if (employee[3] == 3) {
 	bonus = bonus + 0.04;
-}
-else if (employee[3] == 4) {
+} else if (employee[3] == 4) {
 	bonus = bonus + 0.06;
-}
-else if (employee[3] == 5) {
+} else if (employee[3] == 5) {
 	bonus = bonus + 0.10;
 }
-
 if(employee[1].length == 4) {
   bonus = bonus + 0.05;
 }
-
 if(employee[2] > 65000) {
   bonus = bonus - 0.01;
 }
-
 if(bonus > 0.13) {
 	bonus = 0.13;
 }
-
 if (employee[3] <= 2) {
   bonus = 0;
 }
