@@ -38,7 +38,6 @@ if(bonus > 0.13) {
 if (employee[3] <= 2) {
   bonus = 0;
 }
-
 return bonus;
 }
 
